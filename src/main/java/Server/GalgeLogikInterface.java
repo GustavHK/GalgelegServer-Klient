@@ -1,8 +1,8 @@
-
+package Server;
 
 import java.util.ArrayList;
 
-    interface GalgeLogikInterface extends java.rmi.Remote {
+    public interface GalgeLogikInterface extends java.rmi.Remote {
     ArrayList<String> getBrugteBogstaver() throws java.rmi.RemoteException;
     String getSynligtOrd() throws java.rmi.RemoteException;
     String getOrdet() throws java.rmi.RemoteException;
@@ -16,5 +16,5 @@ import java.util.ArrayList;
     void gætBogstav(String bogstav) throws java.rmi.RemoteException;
     void logStatus() throws java.rmi.RemoteException;
     void hentOrdFraDr() throws Exception, java.rmi.RemoteException;
-    void hentOrdFraRegneark(String sværhedsgrader) throws Exception, java.rmi.RemoteException ;
+
 }

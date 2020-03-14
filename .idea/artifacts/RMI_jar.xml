@@ -2,7 +2,7 @@
   <artifact type="jar" name="RMI:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/RMI_jar</output-path>
     <root id="archive" name="RMI.jar">
-      <element id="module-output" name="RMI" />
+      <element id="module-output" name="GalgelegDist" />
     </root>
   </artifact>
 </component>
