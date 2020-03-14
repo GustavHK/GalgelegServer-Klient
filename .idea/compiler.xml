@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="GalgelegDist" />
+        <module name="RMI" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="GalgelegDist" target="1.8" />
+    <bytecodeTargetLevel>
+      <module name="RMI" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
